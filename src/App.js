@@ -1,14 +1,18 @@
 import React from "react";
 import Sidebar from "./Sidebar";
+import Feed from "./Feed";
 import "./App.css";
 
 function App() {
   return (
     // BEM
     <div className="app">
-      <h1>Hey clever progammer how are you</h1>
+      
       {/* Sidebar */}
       <Sidebar />
+
+      {/* Feed */}
+      <Feed />
     </div>
   );
 }
